@@ -1,0 +1,656 @@
+This file contains any messages produced by compilers while
+running configure, to aid debugging if configure makes a mistake.
+
+configure:585: checking whether to use symlinks for manpages
+configure:597: checking whether to compress the manpages
+configure:623: checking whether to add a package name suffix for the manpages
+configure:654: checking for gcc
+configure:767: checking whether the C compiler (gcc  ) works
+configure:783: gcc -o conftest    conftest.c  1>&5
+configure:780:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+main(){return(0);}
+^
+1 warning generated.
+configure:809: checking whether the C compiler (gcc  ) is a cross-compiler
+configure:814: checking whether we are using GNU C
+configure:823: gcc -E conftest.c
+configure:842: checking whether gcc accepts -g
+configure:884: checking how to run the C preprocessor
+configure:905: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:965: checking dirent.h
+configure:997: gcc -o conftest    conftest.c  1>&5
+configure:1020: checking for errno.h
+configure:1030: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1057: checking for float.h
+configure:1067: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1094: checking for values.h
+configure:1104: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1100:10: fatal error: 'values.h' file not found
+#include <values.h>
+         ^~~~~~~~~~
+1 error generated.
+configure: failed program was:
+#line 1099 "configure"
+#include "confdefs.h"
+#include <values.h>
+configure:1131: checking for limits.h
+configure:1141: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1171: checking for stdlib.h
+configure:1181: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1253: checking for string.h
+configure:1263: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1326: checking for sys/wait.h
+configure:1336: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1363: checking for dlfcn.h
+configure:1373: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1404: checking for unistd.h
+configure:1414: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1404: checking for sys/param.h
+configure:1414: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:1449: checking if the compiler understands -pipe
+configure:1463: gcc -c  -pipe  conftest.c 1>&5
+configure:1523: checking for pthread_mutex_init in -lpthread
+configure:1542: gcc -o conftest  -pipe   conftest.c -lpthread   1>&5
+configure:1763: checking for pthread_attr_setstacksize
+configure:1791: gcc -o conftest  -pipe   conftest.c   -lpthread 1>&5
+configure:1818: checking for pthread_atfork
+configure:1846: gcc -o conftest  -pipe   conftest.c   -lpthread 1>&5
+configure:1876: checking for building with threads
+configure:1907: checking for sin
+configure:1935: gcc -o conftest  -pipe   conftest.c  1>&5
+configure:1919:6: warning: incompatible redeclaration of library function 'sin' [-Wincompatible-library-redeclaration]
+char sin();
+     ^
+configure:1919:6: note: 'sin' is a builtin with type 'double (double)'
+1 warning generated.
+configure:1956: checking for main in -lieee
+configure:1971: gcc -o conftest  -pipe   conftest.c -lieee   1>&5
+ld: library not found for -lieee
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+configure: failed program was:
+#line 1964 "configure"
+#include "confdefs.h"
+
+int main() {
+main()
+; return 0; }
+configure:1998: checking for main in -linet
+configure:2013: gcc -o conftest  -pipe   conftest.c -linet   1>&5
+ld: library not found for -linet
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+configure: failed program was:
+#line 2006 "configure"
+#include "confdefs.h"
+
+int main() {
+main()
+; return 0; }
+configure:2035: checking for net/errno.h
+configure:2045: gcc -E  conftest.c >/dev/null 2>conftest.out
+configure:2041:10: fatal error: 'net/errno.h' file not found
+#include <net/errno.h>
+         ^~~~~~~~~~~~~
+1 error generated.
+configure: failed program was:
+#line 2040 "configure"
+#include "confdefs.h"
+#include <net/errno.h>
+configure:2091: checking for connect
+configure:2119: gcc -o conftest  -pipe   conftest.c  1>&5
+configure:2284: checking for gethostbyname
+configure:2312: gcc -o conftest  -pipe   conftest.c  1>&5
+configure:2385: checking how to build libraries
+configure:2424: checking for ranlib
+configure:2456: checking if 64bit support is requested
+configure:2470: checking if 64bit Sparc VIS support is requested
+configure:2489: checking if rpath support is requested
+configure:2505: checking system version
+configure:2540: checking for dlopen in -ldl
+configure:2559: gcc -o conftest  -pipe   conftest.c -ldl   -lpthread 1>&5
+configure:2609: checking for ar
+configure:3545: checking if ld accepts -single_module flag
+configure:3560: gcc -o conftest -pipe     -dynamiclib -Wl,-single_module conftest.c  -lpthread 1>&5
+configure:3586: checking if ld accepts -search_paths_first flag
+configure:3601: gcc -o conftest -pipe     -prebind -headerpad_max_install_names -Wl,-search_paths_first conftest.c  -lpthread 1>&5
+ld: warning: option -prebind is obsolete and being ignored
+configure:3624: checking whether to use CoreFoundation
+configure:3636: checking for CoreFoundation.framework
+configure:3657: gcc -o conftest -pipe     -prebind -headerpad_max_install_names -Wl,-search_paths_first conftest.c  -lpthread -framework CoreFoundation 1>&5
+ld: warning: option -prebind is obsolete and being ignored
+configure:4324: checking for cast to union support
+configure:4339: gcc -c -pipe    conftest.c 1>&5
+configure:4394: checking for build with symbols
+configure:4459: checking for required early compiler flags
+configure:4473: gcc -c -pipe    conftest.c 1>&5
+configure:4523: gcc -c -pipe    conftest.c 1>&5
+configure:4519:28: warning: 'stat64' is deprecated: first deprecated in macOS 10.6 [-Wdeprecated-declarations]
+struct stat64 buf; int i = stat64("/", &buf);
+                           ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/sys/stat.h:427:9: note: 'stat64' has been explicitly marked deprecated here
+int     stat64(const char *, struct stat64 *) __OSX_AVAILABLE_BUT_DEPRECATED(__MAC_10_5, __MAC_10_6, __IPHONE_NA, __IPHONE_NA);
+        ^
+1 warning generated.
+configure:4573: gcc -c -pipe    conftest.c 1>&5
+configure:4569:19: error: use of undeclared identifier 'open64'
+char *p = (char *)open64;
+                  ^
+1 error generated.
+configure: failed program was:
+#line 4566 "configure"
+#include "confdefs.h"
+#include <sys/stat.h>
+int main() {
+char *p = (char *)open64;
+; return 0; }
+configure:4589: gcc -c -pipe    conftest.c 1>&5
+configure:4585:19: error: use of undeclared identifier 'open64'
+char *p = (char *)open64;
+                  ^
+1 error generated.
+configure: failed program was:
+#line 4581 "configure"
+#include "confdefs.h"
+#define _LARGEFILE_SOURCE64 1
+#include <sys/stat.h>
+int main() {
+char *p = (char *)open64;
+; return 0; }
+configure:4620: checking for 64-bit integer type
+configure:4635: gcc -c -pipe    conftest.c 1>&5
+configure:4631:1: error: use of undeclared identifier '__int64'
+__int64 value = (__int64) 0;
+^
+1 error generated.
+configure: failed program was:
+#line 4628 "configure"
+#include "confdefs.h"
+
+int main() {
+__int64 value = (__int64) 0;
+; return 0; }
+configure:4658: gcc -c -pipe    conftest.c 1>&5
+configure:4653:26: error: duplicate case value '1'
+            case 1: case (sizeof(long long)==sizeof(long)): ;
+                         ^
+configure:4653:18: note: previous case defined here
+            case 1: case (sizeof(long long)==sizeof(long)): ;
+                 ^
+1 error generated.
+configure: failed program was:
+#line 4649 "configure"
+#include "confdefs.h"
+
+int main() {
+switch (0) {
+            case 1: case (sizeof(long long)==sizeof(long)): ;
+        }
+; return 0; }
+configure:4854: checking whether byte ordering is bigendian
+configure:4872: gcc -c -pipe    conftest.c 1>&5
+configure:4887: gcc -c -pipe    conftest.c 1>&5
+configure:4882:2: error: use of undeclared identifier 'not'
+ not big endian
+ ^
+1 error generated.
+configure: failed program was:
+#line 4876 "configure"
+#include "confdefs.h"
+#include <sys/types.h>
+#include <sys/param.h>
+int main() {
+
+#if BYTE_ORDER != BIG_ENDIAN
+ not big endian
+#endif
+; return 0; }
+configure:4953: checking for getcwd
+configure:4981: gcc -o conftest -pipe     -prebind -headerpad_max_install_names -Wl,-search_paths_first conftest.c  -lpthread -framework CoreFoundation 1>&5
+ld: warning: option -prebind is obsolete and being ignored
+configure:5015: checking for opendir
+configure:5043: gcc -o conftest -pipe     -prebind -headerpad_max_install_names -Wl,-search_paths_first conftest.c  -lpthread -framework CoreFoundation 1>&5
+ld: warning: option -prebind is obsolete and being ignored
+configure:5015: checking for strstr
+configure:5043: gcc -o conftest -pipe     -prebind -headerpad_max_install_names -Wl,-search_paths_first conftest.c  -lpthread -framework CoreFoundation 1>&5
+configure:5027:6: warning: incompatible redeclaration of library function 'strstr' [-Wincompatible-library-redeclaration]
+char strstr();
+     ^
+configure:5027:6: note: 'strstr' is a builtin with type 'char *(const char *, const char *)'
+1 warning generated.
+ld: warning: option -prebind is obsolete and being ignored
+configure:5015: checking for strtol
+configure:5043: gcc -o conftest -pipe     -prebind -headerpad_max_install_names -Wl,-search_paths_first conftest.c  -lpthread -framework CoreFoundation 1>&5
+configure:5027:6: warning: incompatible redeclaration of library function 'strtol' [-Wincompatible-library-redeclaration]
+char strtol();
+     ^
+configure:5027:6: note: 'strtol' is a builtin with type 'long (const char *, char **, int)'
+1 warning generated.
+ld: warning: option -prebind is obsolete and being ignored
+configure:5015: checking for strtoll
+configure:5043: gcc -o conftest -pipe     -prebind -headerpad_max_install_names -Wl,-search_paths_first conftest.c  -lpthread -framework CoreFoundation 1>&5
+configure:5027:6: warning: incompatible redeclaration of library function 'strtoll' [-Wincompatible-library-redeclaration]
+char strtoll();
+     ^
+configure:5027:6: note: 'strtoll' is a builtin with type 'long long (const char *, char **, int)'
+1 warning generated.
+ld: warning: option -prebind is obsolete and being ignored
+configure:5015: checking for strtoull
+configure:5043: gcc -o conftest -pipe     -prebind -headerpad_max_install_names -Wl,-search_paths_first conftest.c  -lpthread -framework CoreFoundation 1>&5
+configure:5027:6: warning: incompatible redeclaration of library function 'strtoull' [-Wincompatible-library-redeclaration]
+char strtoull();
+     ^
+configure:5027:6: note: 'strtoull' is a builtin with type 'unsigned long long (const char *, char **, int)'
+1 warning generated.
+ld: warning: option -prebind is obsolete and being ignored
+configure:5015: checking for tmpnam
+configure:5043: gcc -o conftest -pipe     -prebind -headerpad_max_install_names -Wl,-search_paths_first conftest.c  -lpthread -framework CoreFoundation 1>&5
+ld: warning: option -prebind is obsolete and being ignored
+configure:5015: checking for waitpid
+configure:5043: gcc -o conftest -pipe     -prebind -headerpad_max_install_names -Wl,-search_paths_first conftest.c  -lpthread -framework CoreFoundation 1>&5
+ld: warning: option -prebind is obsolete and being ignored
+configure:5070: checking for strerror
+configure:5098: gcc -o conftest -pipe     -prebind -headerpad_max_install_names -Wl,-search_paths_first conftest.c  -lpthread -framework CoreFoundation 1>&5
+configure:5082:6: warning: incompatible redeclaration of library function 'strerror' [-Wincompatible-library-redeclaration]
+char strerror();
+     ^
+configure:5082:6: note: 'strerror' is a builtin with type 'char *(int)'
+1 warning generated.
+ld: warning: option -prebind is obsolete and being ignored
+configure:5122: checking for getwd
+configure:5150: gcc -o conftest -pipe     -prebind -headerpad_max_install_names -Wl,-search_paths_first conftest.c  -lpthread -framework CoreFoundation 1>&5
+ld: warning: option -prebind is obsolete and being ignored
+configure:5174: checking for wait3
+configure:5202: gcc -o conftest -pipe     -prebind -headerpad_max_install_names -Wl,-search_paths_first conftest.c  -lpthread -framework CoreFoundation 1>&5
+ld: warning: option -prebind is obsolete and being ignored
+configure:5226: checking for uname
+configure:5254: gcc -o conftest -pipe     -prebind -headerpad_max_install_names -Wl,-search_paths_first conftest.c  -lpthread -framework CoreFoundation 1>&5
+ld: warning: option -prebind is obsolete and being ignored
+configure:5285: checking for realpath
+configure:5313: gcc -o conftest -pipe     -prebind -headerpad_max_install_names -Wl,-search_paths_first conftest.c  -lpthread -framework CoreFoundation 1>&5
+ld: warning: option -prebind is obsolete and being ignored
+configure:5343: checking for getpwuid_r
+configure:5371: gcc -o conftest -pipe     -prebind -headerpad_max_install_names -Wl,-search_paths_first conftest.c  -lpthread -framework CoreFoundation 1>&5
+ld: warning: option -prebind is obsolete and being ignored
+configure:5387: checking for getpwuid_r with 5 args
+configure:5410: gcc -c -pipe    conftest.c 1>&5
+configure:5487: checking for getpwnam_r
+configure:5515: gcc -o conftest -pipe     -prebind -headerpad_max_install_names -Wl,-search_paths_first conftest.c  -lpthread -framework CoreFoundation 1>&5
+ld: warning: option -prebind is obsolete and being ignored
+configure:5531: checking for getpwnam_r with 5 args
+configure:5554: gcc -c -pipe    conftest.c 1>&5
+configure:5631: checking for getgrgid_r
+configure:5659: gcc -o conftest -pipe     -prebind -headerpad_max_install_names -Wl,-search_paths_first conftest.c  -lpthread -framework CoreFoundation 1>&5
+ld: warning: option -prebind is obsolete and being ignored
+configure:5675: checking for getgrgid_r with 5 args
+configure:5698: gcc -c -pipe    conftest.c 1>&5
+configure:5775: checking for getgrnam_r
+configure:5803: gcc -o conftest -pipe     -prebind -headerpad_max_install_names -Wl,-search_paths_first conftest.c  -lpthread -framework CoreFoundation 1>&5
+ld: warning: option -prebind is obsolete and being ignored
+configure:5819: checking for getgrnam_r with 5 args
+configure:5842: gcc -c -pipe    conftest.c 1>&5
+configure:6296: checking for sys/modem.h
+configure:6306: gcc -E   conftest.c >/dev/null 2>conftest.out
+configure:6302:10: fatal error: 'sys/modem.h' file not found
+#include <sys/modem.h>
+         ^~~~~~~~~~~~~
+1 error generated.
+configure: failed program was:
+#line 6301 "configure"
+#include "confdefs.h"
+#include <sys/modem.h>
+configure:6333: checking termios vs. termio vs. sgtty
+configure:6357: gcc -o conftest -pipe     -prebind -headerpad_max_install_names -Wl,-search_paths_first conftest.c  -lpthread -framework CoreFoundation 1>&5
+ld: warning: option -prebind is obsolete and being ignored
+configure:6568: checking for fd_set in sys/types
+configure:6581: gcc -c -pipe    conftest.c 1>&5
+configure:6640: checking whether struct tm is in sys/time.h or time.h
+configure:6653: gcc -c -pipe    conftest.c 1>&5
+configure:6649:20: warning: expression result unused [-Wunused-value]
+struct tm *tp; tp->tm_sec;
+               ~~  ^~~~~~
+1 warning generated.
+configure:6678: checking for sys/time.h
+configure:6688: gcc -E   conftest.c >/dev/null 2>conftest.out
+configure:6715: checking whether time.h and sys/time.h may both be included
+configure:6729: gcc -c -pipe    conftest.c 1>&5
+configure:6750: checking for tm_zone in struct tm
+configure:6763: gcc -c -pipe    conftest.c 1>&5
+configure:6759:18: warning: expression result unused [-Wunused-value]
+struct tm tm; tm.tm_zone;
+              ~~ ^~~~~~~
+1 warning generated.
+configure:6823: checking for gmtime_r
+configure:6851: gcc -o conftest -pipe     -prebind -headerpad_max_install_names -Wl,-search_paths_first conftest.c  -lpthread -framework CoreFoundation 1>&5
+ld: warning: option -prebind is obsolete and being ignored
+configure:6823: checking for localtime_r
+configure:6851: gcc -o conftest -pipe     -prebind -headerpad_max_install_names -Wl,-search_paths_first conftest.c  -lpthread -framework CoreFoundation 1>&5
+ld: warning: option -prebind is obsolete and being ignored
+configure:6877: checking tm_tzadj in struct tm
+configure:6890: gcc -c -pipe    conftest.c 1>&5
+configure:6886:18: error: no member named 'tm_tzadj' in 'struct tm'
+struct tm tm; tm.tm_tzadj;
+              ~~ ^
+1 error generated.
+configure: failed program was:
+#line 6883 "configure"
+#include "confdefs.h"
+#include <time.h>
+int main() {
+struct tm tm; tm.tm_tzadj;
+; return 0; }
+configure:6911: checking tm_gmtoff in struct tm
+configure:6924: gcc -c -pipe    conftest.c 1>&5
+configure:6920:18: warning: expression result unused [-Wunused-value]
+struct tm tm; tm.tm_gmtoff;
+              ~~ ^~~~~~~~~
+1 warning generated.
+configure:6949: checking long timezone variable
+configure:6964: gcc -c -pipe    conftest.c 1>&5
+configure:6960:6: error: implicitly declaring library function 'exit' with type 'void (int) __attribute__((noreturn))' [-Werror,-Wimplicit-function-declaration]
+            exit (0);
+            ^
+configure:6960:6: note: include the header <stdlib.h> or explicitly provide a declaration for 'exit'
+1 error generated.
+configure: failed program was:
+#line 6955 "configure"
+#include "confdefs.h"
+#include <time.h>
+int main() {
+extern long timezone;
+	    timezone += 1;
+	    exit (0);
+; return 0; }
+configure:6987: checking time_t timezone variable
+configure:7002: gcc -c -pipe    conftest.c 1>&5
+configure:6998:3: error: implicitly declaring library function 'exit' with type 'void (int) __attribute__((noreturn))' [-Werror,-Wimplicit-function-declaration]
+                exit (0);
+                ^
+configure:6998:3: note: include the header <stdlib.h> or explicitly provide a declaration for 'exit'
+1 error generated.
+configure: failed program was:
+#line 6993 "configure"
+#include "confdefs.h"
+#include <time.h>
+int main() {
+extern time_t timezone;
+		timezone += 1;
+		exit (0);
+; return 0; }
+configure:7030: checking for st_blksize in struct stat
+configure:7043: gcc -c -pipe    conftest.c 1>&5
+configure:7039:18: warning: expression result unused [-Wunused-value]
+struct stat s; s.st_blksize;
+               ~ ^~~~~~~~~~
+1 warning generated.
+configure:7065: checking for fstatfs
+configure:7093: gcc -o conftest -pipe     -prebind -headerpad_max_install_names -Wl,-search_paths_first conftest.c  -lpthread -framework CoreFoundation 1>&5
+ld: warning: option -prebind is obsolete and being ignored
+configure:7122: checking for 8-bit clean memcmp
+configure:7140: gcc -o conftest -pipe     -prebind -headerpad_max_install_names -Wl,-search_paths_first conftest.c  -lpthread -framework CoreFoundation 1>&5
+configure:7132:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+main()
+^
+configure:7135:3: error: implicitly declaring library function 'exit' with type 'void (int) __attribute__((noreturn))' [-Werror,-Wimplicit-function-declaration]
+  exit(memcmp(&c0, &c2, 1) < 0 && memcmp(&c1, &c2, 1) < 0 ? 0 : 1);
+  ^
+configure:7135:3: note: include the header <stdlib.h> or explicitly provide a declaration for 'exit'
+configure:7135:8: error: implicitly declaring library function 'memcmp' with type 'int (const void *, const void *, unsigned long)' [-Werror,-Wimplicit-function-declaration]
+  exit(memcmp(&c0, &c2, 1) < 0 && memcmp(&c1, &c2, 1) < 0 ? 0 : 1);
+       ^
+configure:7135:8: note: include the header <string.h> or explicitly provide a declaration for 'memcmp'
+1 warning and 2 errors generated.
+configure: failed program was:
+#line 7130 "configure"
+#include "confdefs.h"
+
+main()
+{
+  char c0 = 0x40, c1 = 0x80, c2 = 0x81;
+  exit(memcmp(&c0, &c2, 1) < 0 && memcmp(&c1, &c2, 1) < 0 ? 0 : 1);
+}
+
+configure:7164: checking for memmove
+configure:7192: gcc -o conftest -pipe     -prebind -headerpad_max_install_names -Wl,-search_paths_first conftest.c  -lpthread -framework CoreFoundation 1>&5
+configure:7176:6: warning: incompatible redeclaration of library function 'memmove' [-Wincompatible-library-redeclaration]
+char memmove();
+     ^
+configure:7176:6: note: 'memmove' is a builtin with type 'void *(void *, const void *, unsigned long)'
+1 warning generated.
+ld: warning: option -prebind is obsolete and being ignored
+configure:7225: checking proper strstr implementation
+configure:7243: gcc -o conftest -pipe     -prebind -headerpad_max_install_names -Wl,-search_paths_first conftest.c  -lpthread -framework CoreFoundation 1>&5
+configure:7236:13: warning: incompatible redeclaration of library function 'strstr' [-Wincompatible-library-redeclaration]
+        extern int strstr();
+                   ^
+configure:7236:13: note: 'strstr' is a builtin with type 'char *(const char *, const char *)'
+configure:7239:6: error: implicitly declaring library function 'exit' with type 'void (int) __attribute__((noreturn))' [-Werror,-Wimplicit-function-declaration]
+            exit(strstr("\0test", "test") ? 1 : 0);
+            ^
+configure:7239:6: note: include the header <stdlib.h> or explicitly provide a declaration for 'exit'
+1 warning and 1 error generated.
+configure: failed program was:
+#line 7234 "configure"
+#include "confdefs.h"
+
+	extern int strstr();
+	int main()
+	{
+	    exit(strstr("\0test", "test") ? 1 : 0);
+	}
+configure:7270: checking for strtoul
+configure:7298: gcc -o conftest -pipe     -prebind -headerpad_max_install_names -Wl,-search_paths_first conftest.c  -lpthread -framework CoreFoundation 1>&5
+configure:7282:6: warning: incompatible redeclaration of library function 'strtoul' [-Wincompatible-library-redeclaration]
+char strtoul();
+     ^
+configure:7282:6: note: 'strtoul' is a builtin with type 'unsigned long (const char *, char **, int)'
+1 warning generated.
+ld: warning: option -prebind is obsolete and being ignored
+configure:7320: checking proper strtoul implementation
+configure:7345: gcc -o conftest -pipe     -prebind -headerpad_max_install_names -Wl,-search_paths_first conftest.c  -lpthread -framework CoreFoundation 1>&5
+configure:7331:13: warning: incompatible redeclaration of library function 'strtoul' [-Wincompatible-library-redeclaration]
+        extern int strtoul();
+                   ^
+configure:7331:13: note: 'strtoul' is a builtin with type 'unsigned long (const char *, char **, int)'
+configure:7339:3: error: implicitly declaring library function 'exit' with type 'void (int) __attribute__((noreturn))' [-Werror,-Wimplicit-function-declaration]
+                exit(1);
+                ^
+configure:7339:3: note: include the header <stdlib.h> or explicitly provide a declaration for 'exit'
+1 warning and 1 error generated.
+configure: failed program was:
+#line 7329 "configure"
+#include "confdefs.h"
+
+	extern int strtoul();
+	int main()
+	{
+	    char *string = "0";
+	    char *term;
+	    int value;
+	    value = strtoul(string, &term, 0);
+	    if ((value != 0) || (term != (string+1))) {
+		exit(1);
+	    }
+	    exit(0);
+	}
+configure:7374: checking for strtod
+configure:7402: gcc -o conftest -pipe     -prebind -headerpad_max_install_names -Wl,-search_paths_first conftest.c  -lpthread -framework CoreFoundation 1>&5
+configure:7386:6: warning: incompatible redeclaration of library function 'strtod' [-Wincompatible-library-redeclaration]
+char strtod();
+     ^
+configure:7386:6: note: 'strtod' is a builtin with type 'double (const char *, char **)'
+1 warning generated.
+ld: warning: option -prebind is obsolete and being ignored
+configure:7424: checking proper strtod implementation
+configure:7449: gcc -o conftest -pipe     -prebind -headerpad_max_install_names -Wl,-search_paths_first conftest.c  -lpthread -framework CoreFoundation 1>&5
+configure:7443:3: error: implicitly declaring library function 'exit' with type 'void (int) __attribute__((noreturn))' [-Werror,-Wimplicit-function-declaration]
+                exit(1);
+                ^
+configure:7443:3: note: include the header <stdlib.h> or explicitly provide a declaration for 'exit'
+1 error generated.
+configure: failed program was:
+#line 7433 "configure"
+#include "confdefs.h"
+
+	extern double strtod();
+	int main()
+	{
+	    char *string = " +69";
+	    char *term;
+	    double value;
+	    value = strtod(string, &term);
+	    if ((value != 69) || (term != (string+4))) {
+		exit(1);
+	    }
+	    exit(0);
+	}
+configure:7481: checking for strtod
+configure:7531: checking for Solaris2.4/Tru64 strtod bugs
+configure:7563: gcc -o conftest -pipe     -prebind -headerpad_max_install_names -Wl,-search_paths_first conftest.c  -lpthread -framework CoreFoundation 1>&5
+configure:7549:4: error: implicitly declaring library function 'exit' with type 'void (int) __attribute__((noreturn))' [-Werror,-Wimplicit-function-declaration]
+                        exit(1);
+                        ^
+configure:7549:4: note: include the header <stdlib.h> or explicitly provide a declaration for 'exit'
+1 error generated.
+configure: failed program was:
+#line 7540 "configure"
+#include "confdefs.h"
+
+		extern double strtod();
+		int main() {
+		    char *infString="Inf", *nanString="NaN", *spaceString=" ";
+		    char *term;
+		    double value;
+		    value = strtod(infString, &term);
+		    if ((term != infString) && (term[-1] == 0)) {
+			exit(1);
+		    }
+		    value = strtod(nanString, &term);
+		    if ((term != nanString) && (term[-1] == 0)) {
+			exit(1);
+		    }
+		    value = strtod(spaceString, &term);
+		    if (term == (spaceString+1)) {
+			exit(1);
+		    }
+		    exit(0);
+		}
+configure:7594: checking for ANSI C header files
+configure:7607: gcc -E   conftest.c >/dev/null 2>conftest.out
+configure:7674: gcc -o conftest -pipe     -prebind -headerpad_max_install_names -Wl,-search_paths_first conftest.c  -lpthread -framework CoreFoundation 1>&5
+configure:7669:67: error: implicitly declaring library function 'exit' with type 'void (int) __attribute__((noreturn))' [-Werror,-Wimplicit-function-declaration]
+if (XOR (islower (i), ISLOWER (i)) || toupper (i) != TOUPPER (i)) exit(2);
+                                                                  ^
+configure:7669:67: note: include the header <stdlib.h> or explicitly provide a declaration for 'exit'
+1 error generated.
+configure: failed program was:
+#line 7663 "configure"
+#include "confdefs.h"
+#include <ctype.h>
+#define ISLOWER(c) ('a' <= (c) && (c) <= 'z')
+#define TOUPPER(c) (ISLOWER(c) ? 'A' + ((c) - 'a') : (c))
+#define XOR(e, f) (((e) && !(f)) || (!(e) && (f)))
+int main () { int i; for (i = 0; i < 256; i++)
+if (XOR (islower (i), ISLOWER (i)) || toupper (i) != TOUPPER (i)) exit(2);
+exit (0); }
+
+configure:7698: checking for mode_t
+configure:7731: checking for pid_t
+configure:7764: checking for size_t
+configure:7797: checking for uid_t in sys/types.h
+configure:7832: checking for socklen_t
+configure:7877: checking for opendir
+configure:7938: checking union wait
+configure:7956: gcc -o conftest -pipe     -prebind -headerpad_max_install_names -Wl,-search_paths_first conftest.c  -lpthread -framework CoreFoundation 1>&5
+ld: warning: option -prebind is obsolete and being ignored
+configure:7983: checking for strncasecmp
+configure:8011: gcc -o conftest -pipe     -prebind -headerpad_max_install_names -Wl,-search_paths_first conftest.c  -lpthread -framework CoreFoundation 1>&5
+configure:7995:6: warning: incompatible redeclaration of library function 'strncasecmp' [-Wincompatible-library-redeclaration]
+char strncasecmp();
+     ^
+configure:7995:6: note: 'strncasecmp' is a builtin with type 'int (const char *, const char *, unsigned long)'
+1 warning generated.
+ld: warning: option -prebind is obsolete and being ignored
+configure:8131: checking for gettimeofday
+configure:8159: gcc -o conftest -pipe     -prebind -headerpad_max_install_names -Wl,-search_paths_first conftest.c  -lpthread -framework CoreFoundation 1>&5
+ld: warning: option -prebind is obsolete and being ignored
+configure:8183: checking for gettimeofday declaration
+configure:8220: checking whether char is unsigned
+configure:8283: checking signed char declarations
+configure:8299: gcc -c -pipe    conftest.c 1>&5
+configure:8324: checking for a putenv() that copies the buffer
+configure:8355: gcc -o conftest -pipe     -prebind -headerpad_max_install_names -Wl,-search_paths_first conftest.c  -lpthread -framework CoreFoundation 1>&5
+configure:8340:20: error: implicitly declaring library function 'strdup' with type 'char *(const char *)' [-Werror,-Wimplicit-function-declaration]
+            foo = (char *)strdup(OURVAR);
+                          ^
+configure:8340:20: note: include the header <string.h> or explicitly provide a declaration for 'strdup'
+configure:8342:6: error: implicitly declaring library function 'strcpy' with type 'char *(char *, const char *)' [-Werror,-Wimplicit-function-declaration]
+            strcpy((char *)(strchr(foo, '=') + 1), "no");
+            ^
+configure:8342:6: note: include the header <string.h> or explicitly provide a declaration for 'strcpy'
+configure:8342:22: error: implicitly declaring library function 'strchr' with type 'char *(const char *, int)' [-Werror,-Wimplicit-function-declaration]
+            strcpy((char *)(strchr(foo, '=') + 1), "no");
+                            ^
+configure:8342:22: note: include the header <string.h> or explicitly provide a declaration for 'strchr'
+configure:8344:11: error: implicitly declaring library function 'strcmp' with type 'int (const char *, const char *)' [-Werror,-Wimplicit-function-declaration]
+            if (!strcmp(bar, "no")) {
+                 ^
+configure:8344:11: note: include the header <string.h> or explicitly provide a declaration for 'strcmp'
+4 errors generated.
+configure: failed program was:
+#line 8333 "configure"
+#include "confdefs.h"
+
+	#include <stdlib.h>
+	#define OURVAR "havecopy=yes"
+	int main (int argc, char *argv[])
+	{
+	    char *foo, *bar;
+	    foo = (char *)strdup(OURVAR);
+	    putenv(foo);
+	    strcpy((char *)(strchr(foo, '=') + 1), "no");
+	    bar = getenv("havecopy");
+	    if (!strcmp(bar, "no")) {
+		/* doesnt copy */
+		return 0;
+	    } else {
+		/* does copy */
+		return 1;
+	    }
+	}
+    
+configure:8395: checking for langinfo.h
+configure:8405: gcc -E   conftest.c >/dev/null 2>conftest.out
+configure:8429: checking whether to use nl_langinfo
+configure:8443: gcc -c -pipe    conftest.c 1>&5
+configure:8476: checking for copyfile.h
+configure:8486: gcc -E   conftest.c >/dev/null 2>conftest.out
+configure:8515: checking for copyfile
+configure:8543: gcc -o conftest -pipe     -prebind -headerpad_max_install_names -Wl,-search_paths_first conftest.c  -lpthread -framework CoreFoundation 1>&5
+ld: warning: option -prebind is obsolete and being ignored
+configure:8572: checking for libkern/OSAtomic.h
+configure:8582: gcc -E   conftest.c >/dev/null 2>conftest.out
+configure:8611: checking for OSSpinLockLock
+configure:8639: gcc -o conftest -pipe     -prebind -headerpad_max_install_names -Wl,-search_paths_first conftest.c  -lpthread -framework CoreFoundation 1>&5
+ld: warning: option -prebind is obsolete and being ignored
+configure:8666: checking for pthread_atfork
+configure:8735: checking for AvailabilityMacros.h
+configure:8745: gcc -E   conftest.c >/dev/null 2>conftest.out
+configure:8773: checking if weak import is available
+configure:8796: gcc -o conftest -pipe  -Werror    -prebind -headerpad_max_install_names -Wl,-search_paths_first conftest.c  -lpthread -framework CoreFoundation 1>&5
+ld: warning: option -prebind is obsolete and being ignored
+configure:8824: checking for fts
+configure:8845: gcc -o conftest -pipe     -prebind -headerpad_max_install_names -Wl,-search_paths_first conftest.c  -lpthread -framework CoreFoundation 1>&5
+ld: warning: option -prebind is obsolete and being ignored
+configure:8877: checking for sys/ioctl.h
+configure:8887: gcc -E   conftest.c >/dev/null 2>conftest.out
+configure:8917: checking for sys/filio.h
+configure:8927: gcc -E   conftest.c >/dev/null 2>conftest.out
+configure:8955: checking system version
+configure:8986: checking FIONBIO vs. O_NONBLOCK for nonblocking I/O
+configure:9030: checking for sys/sdt.h
+configure:9040: gcc -E   conftest.c >/dev/null 2>conftest.out
+configure:9067: checking for dtrace
+configure:9102: checking whether to enable DTrace support
+configure:9132: checking whether the cpuid instruction is usable
+configure:9153: gcc -o conftest -pipe     -prebind -headerpad_max_install_names -Wl,-search_paths_first conftest.c  -lpthread -framework CoreFoundation 1>&5
+ld: warning: option -prebind is obsolete and being ignored
+configure:9202: checking how to package libraries
